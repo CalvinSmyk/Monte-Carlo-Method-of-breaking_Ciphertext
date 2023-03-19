@@ -10,7 +10,7 @@ To use this program, you need to follow the steps mentioned below:
 2. Make sure you have Python installed on your machine. If not, install it from https://www.python.org/downloads/
 3. Install required libraries, i.e., "random", "IPython.display", and "json".
 4. Update the file paths for the bigram file, input file, and final bigram frequency file. You can update the file paths in the if name == 'main': block.
-5. Run the code using the command "python decode.py" from the command line.
+5. Run the code using the command "python Monte-Carlo.py" from the command line.
 6. The program will load the given ciphertext, and then it will try every possible combination of keys until it finds the correct one. After the program finishes, it will output the final plaintext and the number of iterations it took to find the correct key.
 # Functions:
 
